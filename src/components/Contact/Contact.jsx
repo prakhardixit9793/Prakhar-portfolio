@@ -1,6 +1,6 @@
 import React from 'react'
 
-import Contact from "../../assets/contact.png";
+import Contactimage from "../../assets/contact.png";
 
 
 import "./Contact.css"
@@ -45,7 +45,7 @@ function Contact() {
   return (
     <div id="contact">
         <div className="leftcontact">
-            <img src={Contact} alt=""/>
+            <img src={Contactimage} alt=""/>
         </div>
 
         <div className="rightcontact">
