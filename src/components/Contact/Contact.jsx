@@ -1,5 +1,7 @@
 import React from 'react'
-import cont from '../../assets/Contact.png'
+// import cont from '../../assets/contact.png'
+import Contact from "../../assets/contact.png";
+
 import "./Contact.css"
 import {useGSAP}  from "@gsap/react"
 import gsap from 'gsap'
@@ -42,7 +44,7 @@ function Contact() {
   return (
     <div id="contact">
         <div className="leftcontact">
-            <img src={cont} alt=""/>
+            <img src={Contact} alt=""/>
         </div>
 
         <div className="rightcontact">
