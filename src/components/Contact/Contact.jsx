@@ -1,6 +1,7 @@
 import React from 'react'
-// import cont from '../../assets/contact.png'
+
 import Contact from "../../assets/contact.png";
+
 
 import "./Contact.css"
 import {useGSAP}  from "@gsap/react"
